@@ -1,0 +1,122 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #242323;
+    /* overflow-x: hidden; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 27px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:rgb(250, 20, 20)
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 400px;
+    padding: 10px;
+    border: 2px solid #fd1616;
+    border-radius: 6px;
+    font-size: large
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #fa1313;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: large
+  }
+  
+  button:hover {
+    background-color: #a71e1e;
+  }
+  
+  .movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .movie-card {
+    background-color: #c5c2c2;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 3px 5px rgb(247, 243, 243);
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .movie-card h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .movie-card p {
+    margin-bottom: 5px;
+  }
+  footer{
+    background-color: #fc0202;
+    color:white;
+    font-weight:bold;
+    padding: 12px;
+    margin-top:auto;
+    text-align: center;
+}
+  
+  /* Estilos para móviles */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 20px;
+    }
+  
+    input[type="text"] {
+      width: 100%;
+    }
+  
+    button {
+      padding: 8px 16px;
+    }
+  
+    .movie-list {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  
+    .movie-card {
+      padding: 10px;
+    }
+  
+    .movie-card h2 {
+      font-size: 16px;
+    }
+    footer{
+  	 	padding-bottom: 0px;
+  	 	flex-direction: column;
+  	 	text-align: center;
+  	 	background: #fc0202;
+  	 	padding-bottom: 10px;
+  	} 
+  }
