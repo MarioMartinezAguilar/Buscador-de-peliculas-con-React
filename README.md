@@ -9,8 +9,8 @@
 ![vista previa](./img/peliculas.png)
 
 ## CREACION DEL COMPONENTE BuscadorPeliculas.jsx(React)
-**Para este proyecto creamos un componente llamado BuscadorPeliculas.jsx en este componente dentro del return contiene todo lo que vemos en la aplicación como lo es el título(<h1>), el input donde escribe el usuario la película que quiere buscar, además el botón donde presionamos para buscar y también toda la parte de la información de la película cuando se busca es decir la información que traemos cuando consumimos la API a continuación muestro el código del componente donde contiene los elementos mencionados anteriormente, puedes checar el código completo del componente en el archivo BuscazdorPeliculas.jsx de nuestro repositorio:**
-```Jsx
+**Para este proyecto creamos un componente llamado BuscadorPeliculas.jsx en este componente dentro del return contiene todo lo que vemos en la aplicación como lo es el título(h1), el input donde escribe el usuario la película que quiere buscar, además el botón donde presionamos para buscar y también toda la parte de la información de la película cuando se busca es decir la información que traemos cuando consumimos la API a continuación muestro el código del componente donde contiene los elementos mencionados anteriormente, puedes checar el código completo del componente en el archivo BuscazdorPeliculas.jsx de nuestro repositorio:**
+```HTML
     <div className="container">
         <h1>Buscador de Películas</h1>
         <form onSubmit={handleSubmit}>
